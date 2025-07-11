@@ -1,0 +1,194 @@
+// NOTE : MULTIPLE ATTRIBUTES CAN BE POSSIBLE
+
+// # When Entity Button is OFF in the configuration Panel  (Corporate Control) 
+
+// Viewer
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Viewer"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Viewer"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Viewer"
+    }
+  ],
+  "attributes_access": [
+    {
+      "entities": "TRT", // <-- default
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "region": "Asia", // <-- default
+      "permissions": "Viewer"
+    }
+  ]
+}
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "entities": ["TRT"], // <-- default
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+TRT main
+TRT-SURAT FR1
+TRT-PUNE FR2
+TRT-MUMBAI FR3
+
+
+// Editor
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    }
+  ],
+  "attributes_access": []
+}
+
+
+
+// # When Entity Button is ON in the configuration Panel (Corporate + Franchise Control)
+
+
+// If admin belong to corp. then only able to give access to All Include or All Exclude franchise 
+// VIEWER
+// Admin belong to for corp
+// Viewer for Include All Franchises 
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "entities": ["TRT","TRT_SURAT","TRT_PUNE"], 
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+
+// Viewer for Exclude All Franchises 
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "entities": ["TRT"], 
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+
+// -------------------------------------------------------------
+
+// Admin belong to for franchise
+// Viewer permission
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "entities": ["TRT_SURAT"], 
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+
+// EDITOR
+// only QS which are belong to entity
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    }
+  ],
+  "attributes_access": []
+}
+
+
+
+// # When Entity Button is ON in the configuration Panel (Only Franchise Control)
+
+// Viewer
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [],
+  "attributes_access": [
+    {
+      "entities": "TRT_SURAT", // <-- default
+      "permissions": "Viewer"
+    }
+  ]
+}
+
+
+// Editor which are belogs to specific entity 
+{
+  "_id": "67485de64e4fbf6296cb5e8b",
+  "title": "Sameer Sarakhi 2.0",
+  "users_access": [
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    },
+    {
+      "user": "671a7c34b9647a32da946d30",
+      "permissions": "Editor"
+    }
+  ],
+  "attributes_access": []
+}

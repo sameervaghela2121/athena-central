@@ -1,0 +1,1043 @@
+{
+  "common": {
+    "search": "Buscar",
+    "sources": "Fuentes",
+    "otherSources": "Otras Fuentes",
+    "chat": "Chat",
+    "showChat": "Mostrar Chat",
+    "searchChats": "Buscar Chats",
+    "edit": "Editar",
+    "view": "Ver",
+    "cancel": "Cancelar",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "ok": "Aceptar",
+    "keepEditing": "Seguir Editando",
+    "discardChanges": "Desechar",
+    "delete": "Eliminar",
+    "submit-feedback": "Enviar Retroalimentación",
+    "submitting": "Enviando...",
+    "down-vote": "Voto en contra",
+    "up-vote": "Voto a favor",
+    "rerouting": "Redirigiendo...",
+    "reroute-question": "Redirigir Pregunta",
+    "close": "Cerrar",
+    "closeDraft": "Cerrar Borrador",
+    "draft-saved": "Borrador Guardado",
+    "draft": "Borrador",
+    "upload-file": "Subir Archivo",
+    "action": "Acción",
+    "clearAll": "Borrar todo",
+    "update": "Actualizar",
+    "updating": "Actualizando",
+    "create": "Crear",
+    "creating": "Creando",
+    "publish": "Publicar",
+    "saveAsDraft": "Guardar como Borrador",
+    "done": "Hecho",
+    "back": "Atrás",
+    "continue": "Continuar",
+    "delete-all": "Eliminar todo",
+    "back-upload": "Subida por Lotes",
+    "previous": "Anterior",
+    "attachDocuments": "Adjuntar Documentos",
+    "fetching": "Cargando",
+    "browse-files": "Buscar Archivos o arrastrar y soltar",
+    "documents": "Documento(s)",
+    "documentSource": "Documento",
+    "imageSource": "Imagen",
+    "pdfSource": "PDF",
+    "webSource": "Web",
+    "codeSource": "Código",
+    "failedDocuments": "Documento(s) Fallido(s)",
+    "admin": "Administrador",
+    "normal": "Normal",
+    "support": "Soporte",
+    "assignRole": "Asignar Role",
+    "assignGroups": "Asignar Grupos",
+    "viewSources": "Ver Fuentes",
+    "noRecordMatch": "¡No se encontró coincidencia!",
+    "noRecordFound": "No se encontró registro",
+    "page": "Página",
+    "of": "de",
+    "download": "Descargar",
+    "downloadAsCSV": "Descargar Todo como CSV",
+    "downloadTranscription": "Descargar Transcripción",
+    "viewAll": "Ver todo",
+    "pleaseWait": "Por favor espere....",
+    "showLess": "Mostrar Menos",
+    "showMore": "Mostrar Más",
+    "learnMore": "Más información",
+    "showTranscript": "Mostrar Transcripción",
+    "hideTranscript": "Ocultar Transcripción",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración",
+    "apply": "Aplicar",
+    "loading": "Cargando...",
+    "to": "hasta",
+    "deleted": "Eliminado",
+    "saving": "Guardando...",
+    "shareAccess": "Compartir Acceso",
+    "documentLeftToProcess": "Documentos restantes por procesar...",
+    "comingSoon": "Próximamente",
+    "aiGeneratingResponse": "La IA está generando una respuesta...",
+    "aiLoadingInitial": "Un momento, estamos procesando tu solicitud",
+    "aiLoadingExtended": "Ya casi estamos allí, solo unos segundos más",
+    "keepUsingAthena": "Seguir Usando Athena",
+    "creditLimitReached": "{{company}} ha alcanzado su límite mensual de Créditos gratis",
+    "upgradePlan": "Actualizar Plan",
+    "durationOptions": {
+      "byMonth": "Por mes",
+      "byWeek": "Por Semanas"
+    },
+    "errorMessages": {
+      "chatApiFailure": "No se puede procesar tu solicitud. Por favor, inténtalo de nuevo más tarde."
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "general": "General",
+    "connectedApps": "Aplicaciones Conectadas",
+    "dataControlsMenu": "Controles de Datos",
+    "theme": {
+      "title": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "language": {
+      "description": "Elige el idioma para toda la aplicación",
+      "title": "Idioma",
+      "english": "Inglés",
+      "spanish": "Español",
+      "hindi": "Hindi"
+    },
+    "dateFormat": {
+      "title": "Formato de Fecha",
+      "description": "Elige cómo se muestran las fechas en toda la aplicación",
+      "example": "Ejemplo"
+    },
+    "dataControlsSection": {
+      "chatManagement": {
+        "title": "Gestión de Chats",
+        "description": "Administra tus datos de Chats",
+        "confirmDeleteMessage": "Esto eliminará <bold>TODOS los Chats</bold>",
+        "confirmDeleteMessageDescription": "¿Estás seguro de que quieres hacer esto?"
+      },
+      "keManagement": {
+        "title": "Administración de Entradas de Conocimiento",
+        "description": "Administra tus datos de Entradas de Conocimiento (Una vez eliminados, esta acción no se puede deshacer)",
+        "deleteAllKEs": "Eliminar Todas las Entradas de Conocimiento",
+        "confirmDeleteMessage": "Esto eliminará TODAS las <bold>Entradas de Conocimiento</bold> de esta instancia, ¿estás seguro de que quieres hacer esto?",
+        "confirmDeleteMessageDescription": "¿estás seguro de que quieres hacer esto?"
+      }
+    },
+    "session": {
+      "title": "Sesión",
+      "logoutOnThisDevice": "Cerrar sesión en este dispositivo"
+    },
+    "connectedServices": {
+      "googleDrive": {
+        "title": "Google Drive",
+        "description": "Subir Google Docs, Hojas de cálculo, Presentaciones y otros archivos",
+        "connect": "Conectar",
+        "disconnect": "Desconectar"
+      },
+      "microsoftOneDrive": {
+        "title": "Microsoft OneDrive",
+        "description": "Subir Docs, Hojas de cálculo, Presentaciones y otros archivos",
+        "connect": "Conectar",
+        "disconnect": "Desconectar"
+      }
+    },
+    "personalize": "Personalizar",
+    "comingSoon": "Próximamente"
+  },
+  "help": {
+    "title": "Ayuda"
+  },
+  "sidebar": {
+    "startNewChat": "Iniciar nuevo chat",
+    "searchChats": "Buscar chats",
+    "dashboard": "Tablero",
+    "questions": "Preguntas",
+    "queues": "Colas",
+    "chats": "Chats",
+    "KEs": "Biblioteca",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "users": "Usuarios",
+    "roles": "Roles",
+    "groups": "Grupos",
+    "popularChats": "Chats Populares",
+    "configuration": "Configuración",
+    "plansBilling": "Planes & Facturación",
+    "goToAdminPortal": "Portal de Administrador",
+    "goToUserPortal": "Portal de Usuario"
+  },
+  "login": {
+    "singInGoogleButton": "Iniciar sesión con Google",
+    "singInAzureButton": "Iniciar sesión con Azure",
+    "singInButton": "Iniciar sesión"
+  },
+  "questions": {
+    "title": "Preguntas",
+    "noRecordFound": "¡No se encontraron preguntas!",
+    "noRecordFoundDescription": "Intente ajustar los filtros o borrarlos para ver todas las preguntas.",
+    "restrictedMsg": {
+      "heading": "Parece que su cuenta no tiene permiso para ver las preguntas. Si necesita acceso, comuníquese con el administrador del sistema para obtener ayuda.",
+      "message": "Acceso restringido: Preguntas"
+    },
+    "filter": {
+      "myQuestions": "Mis Preguntas",
+      "allQuestions": "Todas las Preguntas"
+    },
+    "columns": {
+      "headers": {
+        "question": "Preguntas e historial de chat",
+        "language": "Idioma",
+        "queues": "Colas",
+        "queue": "Cola",
+        "priority": "Prioridad",
+        "status": "Estado",
+        "askedDate": "Fecha",
+        "askedBy": "Preguntado por",
+        "action": "Acción"
+      },
+      "placeholders": {
+        "question": "Buscar preguntas",
+        "language": "Buscar idioma",
+        "queues": "Buscar colas",
+        "priority": "Buscar prioridad",
+        "status": "Buscar Estado",
+        "askedDate": "Fecha de búsqueda",
+        "askedBy": "Buscar preguntado por"
+      },
+      "tooltips": {
+        "answer": "Responder",
+        "ignore": "Ignorar",
+        "reRoute": "Redirigir"
+      }
+    },
+    "reject-question": {
+      "title": "Sus comentarios se usarán para mejorar el sistema. Proporcione sus comentarios con cuidado.",
+      "placeholder": "Proporcione comentarios (opcional)",
+      "successMsg": "Sus comentarios se enviaron con éxito"
+    },
+    "reroute": {
+      "title-queues": "Redirigir esta pregunta a otras colas",
+      "title-queues-or-org": "Redirigir esta pregunta a otras colas u organizaciones",
+      "search-placeholder": "Buscar colas",
+      "search-organization-placeholder": "Buscar organización",
+      "recentQueue": "Colas recientes",
+      "suggestedQueue": "Colas sugeridas",
+      "entities": "Entidades",
+      "successMsg1": "La pregunta se ha redirigido con éxito a la cola correspondiente.",
+      "successMsg2": "Se le notificará una vez que se proporcione una respuesta.",
+      "routedTo": "Redirigido a:",
+      "recentQueuesNotFound": "¡No se encontraron colas recientes!",
+      "queuesNotFound": "¡No se encontraron colas!",
+      "organizationNotFound": "¡No se encontró la organización!",
+      "tabs": {
+        "recent": "Recientes",
+        "allQueues": "Todas las colas",
+        "organizations": "Organizaciones"
+      }
+    },
+    "answer": {
+      "title": "Crear Entrada de Conocimiento",
+      "form": {
+        "title": "Ingrese el título de la entrada de conocimiento",
+        "description": "Descripción",
+        "title-placeholder": "Ingrese el título...",
+        "content": ""
+      }
+    },
+    "action-guide": {
+      "answer": {
+        "title": "Responder",
+        "description": "Responder: Abre el editor para responder la pregunta."
+      },
+      "ignore": {
+        "title": "Ignorar",
+        "description": "Ignorar: Marca la pregunta como NGTAQ"
+      },
+      "reroute": {
+        "title": "Redirigir",
+        "description": "Redirigir: Abre un modal para reasignar la pregunta a otro equipo o cola."
+      }
+    }
+  },
+  "queues": {
+    "title": "Colas",
+    "newQueueBtn": "Crear nueva cola",
+    "noRecordFound": "¡Colas no encontradas!",
+    "noRecordFoundDescription": "Intenta ajustar los filtros o borrarlos para ver todas las colas.",
+    "restrictedMsg": {
+      "heading": "Parece que tu cuenta no tiene permiso para ver las colas. Si necesitas acceso, comunícate con tu administrador del sistema para obtener ayuda.",
+      "message": "Acceso restringido: Colas"
+    },
+    "filter": {
+      "myQueues": "Mis colas",
+      "allQueues": "Todas las colas"
+    },
+    "columns": {
+      "headers": {
+        "name": "Nombre de la cola",
+        "assignedUser": "Usuario asignado",
+        "escalationManager": "Administrador de escalamiento",
+        "language": "Idioma",
+        "date": "Fecha",
+        "createdBy": "Creado por"
+      },
+      "placeholders": {
+        "name": "Buscar colas",
+        "assignedUser": "Buscar por usuario asignado",
+        "escalationManager": "Buscar por administrador de escalamiento",
+        "language": "Buscar idiomas",
+        "date": "Buscar por fecha",
+        "createdBy": "Buscar por creado"
+      }
+    },
+    "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar esta cola?",
+    "form": {
+      "new-queue-title": "Crear cola",
+      "update-queue-title": "Editar cola",
+      "queueNameAndDescription": {
+        "label": "Nombre y descripción de la cola",
+        "name": "Nombre de la cola",
+        "description": "Descripción de la cola",
+        "caption": "Proporciona un nombre y descripción claros y concisos que definan el propósito y alcance de las preguntas que manejará esta cola."
+      },
+      "suggestedKeywordsForQueue": {
+        "label": "Palabras clave sugeridas para la cola",
+        "caption": "Establece parámetros operativos clave para la cola.",
+        "placeholder": "p. ej. (Beneficios para empleados, Política de licencias, Problemas de nómina)",
+        "info": "Ayuda al sistema a entender qué tipos de preguntas deben dirigirse a esta cola. A menudo se utilizan para el enrutamiento.",
+        "description": "Descripción de la cola"
+      },
+      "attributes": {
+        "label": "Atributos de la cola",
+        "caption": "Selecciona atributos para categorizar y gestionar esta cola.",
+        "languagePlaceholder": "Buscar idioma",
+        "languageInfo": "Especifica los idiomas sugeridos que esta cola puede manejar. Ayuda en el enrutamiento de preguntas específicas por idioma.",
+        "regionPlaceholder": "Seleccionar o escribir región"
+      },
+      "assignUsers": {
+        "label": "Asignar usuarios",
+        "caption": "Identifica a las personas responsables de gestionar y resolver preguntas en esta cola.",
+        "assignUsersPlaceholder": "Asignar correo electrónico, nombre de usuario o ID de la persona",
+        "assignUsersInfo": "Asigna a una persona que sea la más adecuada para esta cola",
+        "escalationPlaceholder": "Asignar correo electrónico, nombre de usuario o ID de la persona",
+        "escalationInfo": "Esta persona será notificada si la cola no responde",
+        "thresholdDayPlaceholder": "Umbral de envejecimiento (días)",
+        "thresholdDayInfo": "Las preguntas con más antigüedad que los días establecidos serán notificadas al gerente"
+      }
+    }
+  },
+  "KEs": {
+    "title": "Entradas de Conocimiento",
+    "newKEBtn": "Crear Nueva Entrada de Conocimiento",
+    "newBulkKEBtn": "Carga Masiva",
+    "batchUploadAvailable": "Carga por Lotes Disponible",
+    "batchUploadExplanation": "Para muchos archivos, recomendamos encarecidamente que crees una Entrada de Conocimiento para cada archivo. Para ayudarte con esto, utiliza el cargador por lotes.",
+    "batchUploadContinueText": "Haz clic aquí para ir a él, o haz clic en continuar para realmente poner todos estos documentos en una sola Entrada de Conocimiento",
+    "noRecordFound": "¡No se Encontró la Entrada de Conocimiento!",
+    "cannotEditWhileProcessing": "La KE no se puede editar mientras se procesa",
+    "noRecordFoundDescription": "Intenta ajustar los filtros o eliminarlos para ver todas las entradas de conocimiento.",
+    "restrictedMsg": {
+      "heading": "Parece que tu cuenta no tiene permiso para ver las entradas de conocimiento. Si necesitas acceso, por favor contacta a tu administrador del sistema para obtener asistencia.",
+      "message": "Acceso Restringido: entradas de conocimiento"
+    },
+    "columns": {
+      "headers": {
+        "title": "Título de la Entrada de Conocimiento",
+        "language": "Idioma",
+        "status": "Estado",
+        "date": "Fecha",
+        "createdBy": "Creado Por",
+        "documents": "Documentos"
+      },
+      "placeholders": {
+        "title": "Título de la Entrada de Conocimiento",
+        "language": "Idioma",
+        "status": "Estado",
+        "date": "Fecha",
+        "createdBy": "Creado Por",
+        "documents": "Documentos"
+      }
+    },
+    "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar esta Entrada de Conocimiento?",
+    "deleteDocumentsMsg": "¿Estás seguro de que deseas eliminar todos los documentos?",
+    "lockMsg": "La entrada de conocimiento está siendo editada. Por favor, inténtalo de nuevo más tarde.",
+    "form": {
+      "createKE": "Crear Entrada de Conocimiento",
+      "editKE": "Editar Entrada de Conocimiento",
+      "KEAccessControl": "Controles de Acceso a KE",
+      "keywords": {
+        "title": "Palabras Clave",
+        "caption": "Agrega palabras clave relevantes para facilitar la búsqueda de esta entrada.",
+        "placeholder": "ej. (Beneficios para empleados, Política de licencias, Problemas de nómina)"
+      },
+      "languages": {
+        "title": "Idiomas",
+        "placeholder": "Buscar idiomas"
+      },
+      "assignAccess": {
+        "accessButton": "Controles de Acceso a KE",
+        "heading": "Asignar Acceso",
+        "infoText": "El Administrador y Super Administrador pueden Ver y Modificar esta Entrada de Conocimiento",
+        "confirmMessage": "¿Estás seguro de que deseas descartar estos cambios en los permisos?",
+        "giveViewingPermission": {
+          "label": "Dar Permiso de Visualización",
+          "giveAccessToAllUsers": {
+            "label": "Dar Acceso a Todos los Usuarios",
+            "helpInfo": "Seleccionando esta opción otorgas acceso de visualización a todos los usuarios de la organización. No se requieren más restricciones o configuraciones, y todos dentro de la organización tendrán acceso a esta Entrada de Conocimiento.",
+            "caption": "Permite que todos los usuarios con rol de soporte de cola editen esta Entrada de Conocimiento.",
+            "includeAllFranchises": "Incluir todas las franquicias",
+            "excludeAllFranchises": "Excluir todas las franquicias"
+          },
+          "giveAccessByAttributeOrName": {
+            "label": "Dar Acceso por Atributo o Nombre",
+            "byAttribute": "Por Atributo",
+            "byAttributeCaption": "Permite que todos los usuarios con rol de soporte de cola editen esta Entrada de Conocimiento.",
+            "byAttributeHelpInfo": "Esta opción permite otorgar acceso de visualización a los usuarios según criterios específicos. Puedes filtrar a los usuarios por atributos seleccionados, y solo aquellos que coincidan con los criterios elegidos tendrán acceso a la Entrada de Conocimiento.",
+            "byName": "Por Nombre",
+            "byNameCaption": "Asignar acceso manualmente a usuarios seleccionados de la organización.",
+            "byNameHelpInfo": "Esta opción permite otorgar acceso de visualización a usuarios específicos seleccionándolos individualmente. Puedes buscar y elegir usuarios manualmente, y solo los seleccionados tendrán acceso a la Entrada de Conocimiento.",
+            "byNamePlaceholder": "Buscar usuarios"
+          }
+        },
+        "giveEditingPermission": {
+          "label": "Dar Permiso de Edición",
+          "onlyAdmins": "Solo Administradores",
+          "onlyAdminsCaption": "Permite que todos los usuarios con roles de super administrador y administrador editen esta Entrada de Conocimiento.",
+          "onlyAdminsHelpInfo": "Esta opción otorga acceso de edición a todos los usuarios con roles de super administrador y administrador, permitiéndoles modificar la Entrada de Conocimiento.",
+          "allQueueSupporters": "Dar Acceso de Edición a Todos los Soporte de Cola",
+          "allQueueSupportersCaption": "Permite que todos los usuarios con rol de soporte de cola editen esta Entrada de Conocimiento.",
+          "allQueueSupportersHelpInfo": "Esta opción otorga acceso de edición a todos los usuarios con rol de soporte de cola. Todos los usuarios en este rol podrán modificar la Entrada de Conocimiento.",
+          "queueSupportersByName": "Dar Acceso de Edición a Soporte de Cola por Nombre",
+          "byNamePlaceholder": "Buscar usuarios",
+          "queueSupportersByNameCaption": "Asignar permisos de edición manualmente a soporte de cola seleccionados.",
+          "queueSupportersByNameHelpInfo": "Esta opción permite otorgar acceso de edición a soporte de cola específicos seleccionándolos individualmente. Puedes buscar y elegir soporte de cola manualmente, y solo los seleccionados tendrán acceso de edición a la Entrada de Conocimiento.",
+          "provideFeedback": "Proporcionar comentarios"
+        }
+      },
+      "versionSelectionModal": {
+        "heading": "Elige la versión de la entrada de conocimiento para editar",
+        "draftVersion": "Versión Borrador",
+        "publishedVersion": "Versión Publicada"
+      },
+      "documentUploads": "Documento(s) cargado(s)"
+    },
+    "analyzing-documents": {
+      "title": "Analizando Documentos",
+      "caption1": "Esto tomará unos minutos...",
+      "caption2": "¡Estamos creando entradas de conocimiento para ti!"
+    },
+    "bulk-upload": {
+      "title": "Subir Archivos (Documentos, Imágenes, Videos, y más)"
+    },
+    "guide": {
+      "singleKE": {
+        "title": "¿Qué es un KE?",
+        "subtitle": "Una Entrada de Conocimiento (KE) es una unidad donde almacenes información y documentos relevantes.",
+        "step1": {
+          "title": "Propósito",
+          "text1": "<b>Entradas Enfocadas:</b> Ideal para crear una sola Entrada de Conocimiento (KE) donde el usuario necesita proporcionar información detallada y específica sobre un tema o documento.",
+          "text2": "<b>Personalización:</b> Permite una personalización precisa, incluyendo la selección del idioma y la adición de detalles específicos relevantes para esa KE única."
+        },
+        "step2": {
+          "title": "Propósito",
+          "text1": "Documento o Tema Único: Cuando se carga o gestiona solo un documento o un tema específico.",
+          "text2": "Información Detallada: Cuando el usuario necesita proporcionar detalles extensos y una descripción clara para esa KE en particular.",
+          "text3": "Selección de Idioma: Cuando el usuario necesita proporcionar detalles extensos y una descripción clara para esa KE en particular."
+        }
+      },
+      "bulkKE": {
+        "title": "¿Por qué usar la carga masiva?",
+        "subtitle": "La 'Carga masiva' le permite tomar una cantidad de archivos y crear una Entrada de conocimiento (KE) a partir de cada archivo.",
+        "step1": {
+          "title": "Propósito",
+          "text1": "<b>Eficiencia:</b> Diseñado para manejar grandes volúmenes de documentos de manera rápida y eficiente.",
+          "text2": "<b>Detección Automática de Idioma:</b> Detecta automáticamente el idioma de los documentos, lo cual es conveniente al cargar múltiples archivos en diferentes idiomas."
+        },
+        "step2": {
+          "title": "Cuándo Usar",
+          "text1": "Múltiples Documentos: Cuando el usuario tiene varios documentos para cargar a la vez y quiere ahorrar tiempo evitando tareas repetitivas.",
+          "text2": "Proceso Simplificado: Útil para situaciones donde los documentos están relacionados pero necesitan categorizarse en KEs separadas.",
+          "text3": "Operaciones por Lote: Proporciona opciones para guardar como borrador o crear KEs en masa, mejorando la productividad."
+        },
+        "step3": {
+          "title": "Cómo realizar una carga masiva",
+          "text1": "Arrastrar y Soltar: Sube varios archivos arrastrándolos y soltándolos en el área de carga.",
+          "text2": "Gestión de Archivos: Después de cargar, puedes eliminar cualquier archivo si es necesario.",
+          "text3": "Sin Combinación: Los archivos no se pueden combinar en un solo KE. Cada archivo se procesará individualmente.",
+          "text4": "Análisis con IA: Nuestra IA analizará cada documento.",
+          "text5": "Creación de Títulos: La IA sugerirá un título para cada KE basado en el contenido del documento. Puedes editar el título, cambiar el documento o eliminarlo.",
+          "text6": "Guardar o Publicar: Puedes elegir guardar todas las entradas como borrador o publicarlas de inmediato."
+        }
+      }
+    },
+    "warning": {
+      "title": "Sie sind dabei, diesen Wissenseintrag mit diesen aktuellen Zugriffseinstellungen zu veröffentlichen.",
+      "sub-title": "Möchten Sie diese vor der Veröffentlichung ändern?",
+      "bullets": {
+        "giveAllViewAccess": "Allen Benutzern Zugriff zum Anzeigen gewähren",
+        "byName": "Benutzern nach Namen Zugriff zum Anzeigen gewähren",
+        "giveCustomViewAccess": "Benutzerdefinierten Zugriff zum Anzeigen gewähren",
+        "byAttribute": "Benutzern basierend auf Attributen Zugriff zum Anzeigen gewähren",
+        "editAccessToAllAdmins": "Allen Admin-Benutzern Zugriff zum Bearbeiten gewähren",
+        "giveAllEditAccess": "Allen Queue-Supportern Zugriff zum Bearbeiten gewähren",
+        "giveCustomEditAccess": "Allen Queue-Supportern nach Namen Zugriff zum Bearbeiten gewähren"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Tablero",
+    "questions": {
+      "title": "Estado del chat degradado por mes de llegada",
+      "widgetHeaderTitle": "Estado del chat degradado por mes de llegada",
+      "answered": "Respondido",
+      "ignored": "Ignorado",
+      "open": "Abierto",
+      "viewAll": "Ver todo",
+      "infoTitle": "Este chat te ayuda a comprender el patrón de envejecimiento, especialmente de los chats degradados que no han sido atendidos.",
+      "infoSubTitle": "¿Se están gestionando bien tus colas? ¿O deberías considerar más personal para atender los chats degradados entrantes?",
+      "questions": "Preguntas"
+    },
+    "topKEs": {
+      "title": "Principales KEs",
+      "widgetHeaderTitle": "Principales KEs",
+      "KEs": "KEs",
+      "createdBy": "Creado por",
+      "timesUsed": "Veces usado",
+      "createdDate": "Fecha de creación",
+      "download": "Descargar",
+      "viewAll": "Ver todo",
+      "infoTitle": "Solo verás los KEs en la lista a los que tienes permiso para acceder."
+    },
+    "knowledgeBaseUtilization": {
+      "widgetHeaderTitle": "Utilización de la Base de Conocimientos",
+      "keCreated": "KE Creado",
+      "infoTitle": "Solo verás los KEs en la lista a los que tienes permiso para acceder.",
+      "keCreatedByMonth": "KEs Creados por Mes"
+    },
+    "tokenUsage": {
+      "title": "Uso de Tokens",
+      "widgetHeaderTitle": "Uso de Tokens",
+      "infoTitle": "Número de veces que el LLM utilizó el KE para responder a una pregunta en un chat de cualquier usuario.",
+      "timesUsed": "Veces usado",
+      "Input": "Entrada",
+      "Output": "Salida",
+      "inputTokenCount": "Cantidad de tokens de entrada",
+      "outputTokenCount": "Cantidad de tokens de salida"
+    },
+    "feedbackVote": {
+      "title": "Voto de Retroalimentación / Voto Negativo y Sin Voto Negativo",
+      "widgetHeaderTitle": "Voto de Retroalimentación / Voto Negativo y Sin Voto Negativo",
+      "infoTitle": "Esta sección proporciona información sobre la retroalimentación de los usuarios respecto a las respuestas. Los votos positivos indican aprobación, mientras que los votos negativos reflejan insatisfacción. Si no hay ningún voto presente, significa que el usuario no ha proporcionado ninguna retroalimentación. Un estado 'Mixto - Voto Positivo y Negativo' significa que la respuesta recibió tanto comentarios positivos como negativos de diferentes usuarios, lo que indica una recepción variada.",
+      "upVote": {
+        "title": "Voto Positivo",
+        "description": "<bold>Voto Positivo</bold> – Indica la aprobación o satisfacción del usuario con la respuesta recibida."
+      },
+      "downVote": {
+        "title": "Voto Negativo",
+        "description": "<bold>Sin Voto</bold> – El usuario no ha dado ninguna retroalimentación para esta respuesta."
+      },
+      "noVotePresent": {
+        "title": "Sin Voto",
+        "description": "<bold>Voto Negativo</bold> – Indica la insatisfacción del usuario con la respuesta recibida."
+      },
+      "mixedUpAndDownVote": {
+        "title": "Mixto - Voto Positivo y Negativo",
+        "description": "<bold>Mixto - Voto Positivo y Negativo</bold> – Representa respuestas que recibieron tanto comentarios positivos (votos positivos) como negativos (votos negativos) de los usuarios."
+      }
+    },
+    "queueAnalytics": {
+      "widgetHeaderTitle": "Analítica de Colas",
+      "infoTitle": "Este widget proporciona una visión general del manejo de consultas en diferentes colas. Muestra el número total de consultas, las respondidas, las pendientes y las redirigidas, junto con el tiempo de respuesta promedio. Utiliza estos datos para monitorear la eficiencia e identificar áreas de mejora en la resolución de consultas.",
+      "avgRespTime": "Tiempo de Resp. Promedio",
+      "queue": "Cola",
+      "question": "Pregunta",
+      "answered": "Respondido",
+      "pending": "Pendiente",
+      "rerouted": "Redirigido"
+    },
+    "activeUserChat": {
+      "title": "Usuarios Activos y Nuevos Usuarios",
+      "infoTitle": "Usuarios Activos y Nuevos Usuarios",
+      "widgetHeaderTitle": "Usuarios Activos y Nuevos Usuarios",
+      "tooltipDescription": "Este gráfico muestra estadísticas mensuales de usuarios activos y nuevos en el sistema:",
+      "activeUsersDescription": "Usuarios que iniciaron sesión y realizaron acciones durante el período seleccionado.",
+      "newUsersDescription": "Usuarios que se registraron por primera vez durante el período seleccionado.",
+      "toToday": "hasta hoy",
+      "activeUsers": "Usuarios Activos",
+      "newUsers": "Nuevos Usuarios",
+      "users": "Usuarios"
+    },
+    "userRetentionAndChurnRate": {
+      "title": "Retención de Usuarios y Tasa de Cancelación",
+      "widgetHeaderTitle": "Retención de Usuarios y Tasa de Cancelación",
+      "tooltipDescription": "Este gráfico muestra la retención de usuarios y la tasa de abandono a lo largo del tiempo:",
+      "monthRetentionDescription": "Los porcentajes mensuales muestran cuántos usuarios de un mes determinado permanecieron activos en los meses siguientes.",
+      "churnRateDescription": "La tasa de abandono indica el porcentaje de usuarios que dejaron de usar la plataforma.",
+      "activeUsers": "Usuarios Activos",
+      "deactivateUsers": "Usuarios Desactivados",
+      "newUsers": "Nuevos Usuarios",
+      "newUsersDescription": "Usuarios que se registraron por primera vez durante el período de tiempo seleccionado.",
+      "monthlyRetention": "Retención Mensual",
+      "monthlyRetentionDescription": "Los porcentajes mensuales muestran cuántos usuarios de un mes determinado permanecieron activos en los meses siguientes.",
+      "overallChurnRate": "Tasa de Abandono General",
+      "overallChurnRateDescription": "Porcentaje de usuarios que dejaron de usar la plataforma."
+    },
+    "topQuestionHandlers": {
+      "widgetHeaderTitle": "Principales Gestores de Preguntas",
+      "infoTitle": "Este widget resalta el desempeño de los miembros del equipo que manejan consultas. Muestra la cantidad de consultas que han respondido, ignorado y redirigido, junto con su total de acciones. Utiliza estos datos para evaluar las contribuciones individuales y optimizar la gestión de consultas.",
+      "handlerName": "Nombre del Gestor",
+      "answered": "Respondido",
+      "ignored": "Ignorado",
+      "rerouted": "Redirigido",
+      "totalActions": "Acciones Totales"
+    },
+    "userEngagementRateAndRawQuestion": {
+      "widgetHeaderTitle": "Tasa de Participación del Usuario y Pregunta en Bruto"
+    }
+  },
+  "admin": {
+    "franchise": {
+      "failedToLoadRoles": "Error al cargar los roles. Por favor, inténtalo de nuevo.",
+      "pleaseSelectRole": "Por favor, selecciona un rol.",
+      "inviteSuccess": "¡Invitación de franquicia enviada con éxito!",
+      "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "inviteTitle": "Invitar Franquicia",
+      "inviteDescription": "Crea una nueva entidad de franquicia e invita a un usuario a administrarla.",
+      "franchiseName": "Nombre de la Franquicia",
+      "franchiseNamePlaceholder": "Ingrese el nombre de la franquicia",
+      "adminEmail": "Correo del Administrador de la Franquicia",
+      "adminEmailPlaceholder": "Ingrese el correo del administrador de la franquicia",
+      "description": "Descripción de la Franquicia",
+      "descriptionPlaceholder": "Ingrese una breve descripción de la franquicia",
+      "role": "Rol",
+      "selectRole": "Seleccionar rol",
+      "createButton": "Crear Franquicia y Enviar Invitación",
+      "successMessage": "¡Franquicia creada con éxito e invitación enviada!",
+      "errorMessages": {
+        "nameRequired": "El nombre de la franquicia es obligatorio",
+        "emailRequired": "Se requiere una dirección de correo electrónico válida",
+        "roleRequired": "Por favor seleccione un rol",
+        "createFailed": "Error al crear la franquicia. Por favor, inténtelo de nuevo."
+      }
+    },
+    "user": {
+      "title": "Usuarios",
+      "columns": {
+        "headers": {
+          "name": "Nombre de usuario",
+          "email": "Correo electrónico",
+          "athenaRoles": "Role de Athena",
+          "groups": "Grupo(s)",
+          "status": "Estado",
+          "lastLogin": "Último inicio de sesión",
+          "designation": "Designación",
+          "facility": "Instalación",
+          "location": "Ubicación",
+          "region": "Región",
+          "queues": "Cola(s) Asignada(s)",
+          "action": "Acción"
+        },
+        "placeholders": {
+          "name": "Nombre de usuario",
+          "email": "Correo electrónico",
+          "athenaRoles": "Role de Athena",
+          "groups": "Grupo(s)",
+          "status": "Estado",
+          "lastLogin": "Último inicio de sesión",
+          "designation": "Designación",
+          "facility": "Instalación",
+          "location": "Ubicación",
+          "region": "Región"
+        }
+      },
+      "noRecordFound": "¡No se encontraron usuarios!",
+      "noRecordFoundDescription": "Intenta ajustar los filtros o borrarlos para ver todos los usuarios.",
+      "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar este usuario?",
+      "assignRole": {
+        "header": "Asignar role",
+        "placeholder": "Seleccionar role",
+        "assignQueue": {
+          "thisUser": "Este usuario",
+          "isAssignedTo": "está asignado a",
+          "changingItsRoleWillLeaveTheQueuesWithoutSupport": "Cambiar su rol dejará las colas sin soporte.",
+          "assignQueuesToUserBelow": "Asignar colas al usuario a continuación:",
+          "queues": "Colas"
+        }
+      },
+      "form": {
+        "new-user-title": "Crear usuario",
+        "edit-user-title": "Editar usuario"
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "columns": {
+        "headers": {
+          "name": "Nombre del rol",
+          "description": "Descripción",
+          "permissions": "Permisos",
+          "status": "Estado",
+          "createdDate": "Fecha de creación"
+        },
+        "placeholders": {
+          "name": "Nombre de la función de búsqueda",
+          "description": "Descripción de la búsqueda",
+          "permissions": "Permisos de búsqueda",
+          "status": "Estado de la búsqueda",
+          "createdDate": "Fecha de creación de la búsqueda"
+        }
+      },
+      "noRecordFound": "¡No se encontró coincidencia!",
+      "noRecordFoundDescription": "Intenta ajustar los filtros o borrarlos para ver todos los roles.",
+      "addNewBtn": "Agregar nuevo rol",
+      "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar este rol?",
+      "form": {
+        "newHeading": "Crear nuevo rol",
+        "editHeading": "Editar rol",
+        "name": "Nombre del rol",
+        "namePlaceholder": "Introduce el nombre del rol",
+        "descriptionPlaceholder": "Descripción",
+        "permissions": "Permisos"
+      }
+    },
+    "groups": {
+      "title": "Grupos",
+      "columns": {
+        "groupName": "Nombre del grupo",
+        "description": "Descripción",
+        "members": "Miembros",
+        "source": "Fuente",
+        "createdDate": "Fecha de creación"
+      },
+      "addNewGroupBtn": "Crear nuevo grupo",
+      "noRecordFound": "¡No se encontró coincidencia!",
+      "noRecordFoundDescription": "Intenta ajustar los filtros o borrarlos para ver todos los grupos.",
+      "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar este grupo?",
+      "form": {
+        "new-group-title": "Crear nuevo grupo",
+        "update-group-title": "Editar grupo",
+        "groupNameAndDescription": {
+          "label": "Nombre y descripción del grupo",
+          "caption": "Introduce un nombre único para el grupo y una descripción que identifique claramente su propósito para facilitar su gestión y localización.",
+          "name": "Nombre del grupo",
+          "name-placeholder": "Ej: Gerentes de TI",
+          "description": "Descripción del grupo",
+          "description-placeholder": "Descripción..."
+        },
+        "addMembersToGroup": {
+          "label": "Agregar miembros al grupo",
+          "caption": "Selecciona usuarios manualmente o filtra por atributos para agregar a este grupo, asegurando una asignación precisa de miembros.",
+          "addSpecificPeopleToThisGroup": "Agregar personas específicas a este grupo",
+          "addSpecificPeopleToThisGroupPlaceholder": "Buscar usuario",
+          "addByAttributes": "Definir por atributos",
+          "byAttributes": {
+            "label": "Por atributos",
+            "region": "Región",
+            "location": "Ubicación",
+            "facility": "Instalación",
+            "designation": "Designación",
+            "activeDirectory": "Active Directory (Grupos)"
+          }
+        }
+      }
+    },
+    "config": {
+      "title": "Configuración de atributos",
+      "restrictedMsg": {
+        "heading": "Parece que tu cuenta no tiene permiso para ver la Configuración. Si necesitas acceso, por favor contacta a tu administrador del sistema para obtener ayuda.",
+        "message": "Acceso restringido: Configuración"
+      },
+      "columns": {
+        "name": "Nombre del atributo",
+        "description": "Descripción",
+        "status": "Estado",
+        "permissions": "Permisos"
+      },
+      "addNewBtn": "Agregar nuevo atributo",
+      "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar este atributo?",
+      "form": {
+        "newHeading": "Crear atributo",
+        "editHeading": "Editar atributo",
+        "name": "Nombre del atributo",
+        "namePlaceholder": "Nombre del atributo",
+        "organizationName*": "Agregar nombre de la organización",
+        "organizationNamePlaceholder": "Ej: Marriott International",
+        "description": "Descripción del atributo (Opcional)",
+        "descriptionPlaceholder": "Escribe la descripción aquí...",
+        "type": "Tipo de atributo"
+      }
+    }
+  },
+  "billing": {
+    "planHeading": "Elija el Plan Adecuado para su Organización",
+    "planDescription": "Athena ofrece planes flexibles por usuario diseñados para escalar con su equipo. Actualice en cualquier momento según su uso y tamaño de equipo.",
+    "currentPlan": "Plan actual",
+    "payment": {
+      "modalTitle": "Actualice su Plan",
+      "modalSubtitle": "Complete sus detalles de pago a continuación",
+      "paymentSummary": "Resumen de Pago",
+      "planDetails": "Detalles del Plan",
+      "teamSize": "Tamaño del Equipo",
+      "perUserPricing": "(precio por usuario)",
+      "totalCost": "Costo Total",
+      "billingFrequency": "Mensual",
+      "billingNote": "Facturado mensualmente a su método de pago",
+      "cardDetails": "Detalles de la Tarjeta",
+      "cancelButton": "Cancelar",
+      "payNowButton": "Pagar Ahora"
+    },
+    "usage": {
+      "title": "Uso",
+      "monthlyUsage": "Su uso mensual de mensajes y almacenamiento",
+      "chatMessages": "Mensajes de Chat",
+      "poolMessages": "Mensajes del Grupo",
+      "storage": "Almacenamiento",
+      "used": "Usado",
+      "left": "Restante",
+      "needMoreCredits": "¿Necesita Más Créditos de Mensajes?",
+      "creditsInfo": "Puede agregar créditos de mensajes adicionales en cualquier momento, ya sea que esté con pocos recursos o preparándose para un uso elevado. Los créditos adicionales no utilizados se transfieren al mes siguiente",
+      "purchaseCredits": "Comprar Créditos",
+      "of": "de",
+      "activePlan": "Plan Activo"
+    },
+    "upgradePlan": "Actualizar Plan",
+    "notAvailable": "No Disponible",
+    "subscriptionDetails": "Detalles de suscripción y facturación",
+    "plan": "Plan",
+    "price": "Precio",
+    "messageLimit": "Límite de mensajes",
+    "billingCycle": "Ciclo de facturación",
+    "downloadInvoice": "Descargar factura",
+    "paymentMethod": "Método de pago",
+    "managePaymentDetails": "Administra tus detalles de pago de forma segura",
+    "cardInformation": "Tu información de tarjeta está cifrada y almacenada de forma segura. Nunca compartiremos tus detalles con terceros.",
+    "cardEnding": "{{brand}} termina en {{number}}",
+    "expires": "Vence {{date}}",
+    "default": "Predeterminado",
+    "updatePaymentMethod": "Actualizar método de pago",
+    "billingHistory": "Historial de facturas",
+    "paymentAndInvoiceHistory": "Tu historial de pagos y facturas",
+    "paid": "Pagado",
+    "downloadInvoiceBtn": "Descargar factura",
+    "errorFetchingBillingHistory": "Error al obtener el historial de facturas",
+    "noBillingHistoryRecordFound": "No se encontró registro de historial de facturas"
+  },
+  "chats": {
+    "termsAndConditions": "Términos y condiciones",
+    "warning": "El Agente puede cometer errores en los resúmenes",
+    "askNewQuestionPlaceholder": "¡Haz tu pregunta aquí!",
+    "chatHistory": "Historial de chat",
+    "sources": "Fuentes",
+    "startNewChat": "Iniciar nuevo chat",
+    "upVote": "Útil",
+    "downVote": "No útil",
+    "helpMe": "Ayudame!",
+    "copyToClipBoard": "Copiar",
+    "copiedToClipBoard": "Copiado",
+    "deleteConfirmMsg": "¿Estás seguro de que deseas eliminar <b>{{conversation}}</b>?",
+    "noRecordFound": "No se encontró registro",
+    "feedback": {
+      "title": "Proporcione información adicional sobre por qué no está satisfecho con la respuesta.",
+      "placeholder": "Proporcione comentarios...",
+      "note": "Tenga en cuenta que, al enviar sus comentarios, esta conversación finalizará aquí. Deberá iniciar un nuevo chat para cualquier pregunta adicional."
+    },
+    "documentViewer": {
+      "heading": "Documento de referencia",
+      "noDocumentFound": "No se encontró ningún documento",
+      "KETitle": "título de entrada de conocimiento",
+      "description": "Descripción",
+      "noPreview": "No hay vista previa disponible para este archivo",
+      "showKE": "Mostrar KE",
+      "pleaseDownload": "Por favor, descarga",
+      "updatedBy": "Actualizado por",
+      "updatedAt": "Actualizado el",
+      "copy": "Copiar URL",
+      "copied": "URL Copiada"
+    },
+    "retrievalDocs": {
+      "heading": "Recursos",
+      "relevance": "Relevancia",
+      "allFiles": "Todos los archivos",
+      "sourcesUsed": "Fuentes utilizadas para crear esta respuesta",
+      "otherFindings": "Otros hallazgos",
+      "otherFindingsDescription": "No se utilizó en esta respuesta, pero puede ayudar.",
+      "documents": "Documentos",
+      "images": "Imágenes",
+      "videos": "Videos",
+      "KEs": "KEs",
+      "dateFilter": {
+        "allTime": "Todo el tiempo",
+        "today": "Hoy",
+        "thisWeek": "Esta semana",
+        "thisMonth": "Este mes",
+        "lastThreeMonths": "Últimos 3 meses",
+        "thisYear": "Este Año"
+      }
+    },
+    "hello": "Hola",
+    "subheading": "¡Bienvenido a tu centro de conocimiento personalizado!",
+    "limitExhausted": "Límite de chat agotado",
+    "exhaustedMessage": "Has alcanzado tu límite de chat para hoy. Por favor, inténtalo de nuevo más tarde o contacta a tu administrador para obtener ayuda",
+    "export": {
+      "pdf": "Export as pdf (Adobe Acrobat)",
+      "doc": "Export as Microsoft Word (.docx)"
+    }
+  },
+  "onboarding": {
+    "companyListing": {
+      "title": "Selecciona Tu Empresa",
+      "description": "Selecciona una empresa existente o crea una nueva",
+      "noCompanies": "No se encontraron empresas",
+      "createNew": "Crear una nueva empresa"
+    },
+    "createCompany": {
+      "title": "Crea Tu Empresa",
+      "description": "Vamos a configurar tu empresa para comenzar con AthenaPro.",
+      "companyName": "Nombre de la Empresa",
+      "companyNamePlaceholder": "Ingresa el nombre de tu empresa",
+      "continue": "Próximo",
+      "error": "Error al crear la empresa. Por favor, inténtalo de nuevo."
+    },
+    "inviteUsers": {
+      "failedToLoadRoles": "Error al cargar los roles. Por favor, inténtalo de nuevo.",
+      "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "invitesSentSuccess": "¡Invitaciones enviadas con éxito!",
+      "removeEmail": "Eliminar correo electrónico",
+      "removeAllEmails": "Eliminar todos los correos electrónicos",
+      "title": "Invitar Miembros del Equipo",
+      "description": "Invita a los miembros de tu equipo a colaborar en AthenaPro.",
+      "emailAddresses": "Direcciones de Correo Electrónico*",
+      "emailPlaceholder": "Ingresa direcciones de correo electrónico",
+      "addMoreEmailsPlaceholder": "Añadir más correos...",
+      "emailInstructions": "Escribe un correo y presiona coma, espacio o tabulador para añadirlo",
+      "role": "Rol*",
+      "selectRole": "Rol",
+      "noRoles": "No hay roles disponibles",
+      "reason": "Motivo de la Invitación (Opcional)",
+      "reasonPlaceholder": "¿Por qué estás invitando a estos usuarios?",
+      "sendInvites": "Enviar Invitaciones",
+      "continueToNextStep": "Próximo",
+      "successMessage": "¡Se envió {{count}} invitación exitosamente!",
+      "successMessage_plural": "¡Se enviaron {{count}} invitaciones exitosamente!",
+      "pendingInvitations": "Invitaciones Pendientes",
+      "email": "Correo Electrónico",
+      "actions": "Acciones",
+      "resendInvitation": "Reenviar Invitación",
+      "resend": "Reenviar",
+      "morePendingInvitations": "+{{count}} más invitaciones pendientes",
+      "errorMessages": {
+        "noEmails": "Por favor, ingresa al menos una dirección de correo electrónico",
+        "noRole": "Por favor, selecciona un rol",
+        "invalidEmail": "Formato de correo inválido: {{email}}",
+        "noValidEmails": "Por favor, ingresa al menos una dirección de correo electrónico válida",
+        "sendFailed": "Error al enviar invitaciones. Por favor, inténtalo de nuevo.",
+        "allFailed": "Error al enviar invitaciones: {{errors}}",
+        "someFailed": "Algunas invitaciones no pudieron enviarse: {{errors}}\n\nSe enviaron exitosamente {{count}} invitación(es).",
+        "nextStepFailed": "Error al proceder al siguiente paso. Por favor, inténtalo de nuevo."
+      }
+    },
+    "setPreferences": {
+      "title": "Establecer Tus Preferencias",
+      "description": "Personaliza AthenaPro según tus preferencias. Puedes cambiar esta configuración en cualquier momento.",
+      "language": "Idioma",
+      "dateFormat": "Formato de Fecha",
+      "completeSetup": "Completar Configuración",
+      "error": "Error al guardar preferencias. Por favor, inténtalo de nuevo."
+    },
+    "progress": {
+      "step": "Paso {{current}} de {{total}}"
+    },
+    "loading": "Cargando proceso de incorporación..."
+  },
+  "auth": {
+    "login": {
+      "title": "¡Bienvenido de nuevo!",
+      "subtitle": "Inicia sesión en tu cuenta",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "loginButton": "Iniciar sesión",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "noAccount": "¿No tienes una cuenta?",
+      "signUp": "Regístrate",
+      "loginWithEmail": "Iniciar sesión con correo electrónico y contraseña",
+      "loginWithSSO": "Iniciar sesión con {{provider}}"
+    },
+    "register": {
+      "title": "Crear una cuenta",
+      "subtitle": "Regístrate para comenzar",
+      "namePlaceholder": "Ingresa tu nombre",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "passwordPlaceholder": "Crea una contraseña",
+      "registerButton": "Registrarse",
+      "haveAccount": "¿Ya tienes una cuenta?",
+      "login": "Iniciar sesión"
+    },
+    "forgotPassword": {
+      "title": "Olvidé mi contraseña",
+      "subtitle": "Ingrese su dirección de correo electrónico para recibir un enlace de restablecimiento de contraseña",
+      "emailPlaceholder": "Ingrese su correo electrónico",
+      "sendResetLink": "Enviar enlace de restablecimiento",
+      "rememberPassword": "¿Recuerdas tu contraseña?",
+      "backToLogin": "Volver al inicio de sesión",
+      "passwordResetLinkSent": "¡Enlace de restablecimiento de contraseña enviado!",
+      "checkEmail": "Revise su bandeja de entrada para ver el enlace de restablecimiento de contraseña.",
+      "checkEmailDescription": "Si no ve el correo electrónico, revise su carpeta de spam."
+    },
+    "resetPassword": {
+      "title": "Restablecer contraseña",
+      "subtitle": "Crea una nueva contraseña para tu cuenta",
+      "newPasswordPlaceholder": "Ingrese nueva contraseña",
+      "confirmPasswordPlaceholder": "Confirmar nueva contraseña",
+      "resetButton": "Restablecer contraseña",
+      "successMessage": "Tu contraseña ha sido actualizada",
+      "redirectMessage": "Serás redirigido a la página de inicio de sesión en breve",
+      "titlesuccessMessage": "¡Restablecimiento de contraseña exitoso!",
+      "resetPasswordDescription": "Si no solicitó este cambio, comuníquese con su administrador o con el soporte de AthenaPro de inmediato."
+    },
+    "changePassword": {
+      "title": "Cambiar contraseña",
+      "currentPasswordPlaceholder": "Ingresa tu contraseña actual",
+      "newPasswordPlaceholder": "Ingresa tu nueva contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu nueva contraseña",
+      "changeButton": "Cambiar contraseña",
+      "changingButton": "Cambiando contraseña...",
+      "successMessage": "Contraseña cambiada exitosamente",
+      "errorMessage": "Error al cambiar la contraseña. Por favor, inténtalo de nuevo."
+    },
+    "verifyEmail": {
+      "title": "Verificar correo electrónico",
+      "verifying": "Verificando tu correo electrónico...",
+      "success": "Correo electrónico verificado exitosamente",
+      "error": "Error al verificar el correo electrónico",
+      "redirecting": "Redirigiendo a la página de inicio de sesión..."
+    },
+    "errors": {
+      "emailRequired": "El correo electrónico es obligatorio",
+      "emailInvalid": "El correo electrónico es inválido",
+      "passwordRequired": "La contraseña es obligatoria",
+      "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+      "passwordStrength": "La contraseña debe contener al menos una letra mayúscula, una letra minúscula, un número y un carácter especial",
+      "confirmPasswordRequired": "Confirmar contraseña es obligatorio",
+      "passwordsDoNotMatch": "Las contraseñas no coinciden",
+      "nameRequired": "El nombre es obligatorio"
+    }
+  },
+  "unAuthorizedAccess": {
+    "heading": "No autorizado",
+    "description1": "Lo sentimos, no tienes permiso para acceder a esta página.",
+    "description2": "Por favor, verifica tus credenciales o contacta al soporte para obtener ayuda.",
+    "backToHome": "Volver a Inicio"
+  }
+}
