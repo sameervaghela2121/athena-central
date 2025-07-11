@@ -138,7 +138,7 @@ const Login = () => {
     // window.location.href = `${HOST.AUTH}/auth/login?provider=${provider}`;
 
     if (provider == "Google") {
-      window.location.href = `http://localhost:5000/login?provider=Google`;
+      window.location.href = `https://us-central1-dev-genai-sandbox-434618.cloudfunctions.net/centralLogin/login?provider=Google`;
     }
 
     setTimeout(() => {
