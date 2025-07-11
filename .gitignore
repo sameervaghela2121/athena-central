@@ -49,7 +49,7 @@ Thumbs.db
 *.wmv
 
 package-lock.json
-.env
+# .env
 .env.production
 .env.local
 .env.prod
