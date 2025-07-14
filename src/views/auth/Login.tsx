@@ -255,7 +255,7 @@ const Login = () => {
     setShowMembershipModal(false);
     // Redirect to the company URL with query parameters
 
-    if (oAuthLoginSuccess) {
+    // if (oAuthLoginSuccess) {
       console.log("🚀 ~ handleMembershipSelect ~ membership:", membership);
       let payload = {
         email: formData.email,
@@ -270,7 +270,7 @@ const Login = () => {
         window.location.href = `${membership.url}/login?isRedirect=true&auth_token=${response.token}`;
         // Save token and user info
       }
-    }
+    // }
   };
 
   const handlePasswordSubmit = async (e: React.FormEvent) => {
