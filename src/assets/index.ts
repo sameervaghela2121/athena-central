@@ -91,6 +91,7 @@ import billingCreditIcon from "./icons/billingCreditIcon.svg";
 import burgerIcon from "./icons/burgerIcon.svg";
 import circleCheck from "./icons/circleCheck.svg";
 import clipboardIcon from "./icons/clipboardIcon.svg";
+import company from "./icons/company.svg";
 import config from "./icons/config.svg";
 import connectApp from "./icons/connectApp.svg";
 import crossRed from "./icons/crossRed.svg";
@@ -98,6 +99,7 @@ import dashboardDark from "./icons/dashboardDark.svg";
 import database from "./icons/database.svg";
 import docIcon from "./icons/docIcon.svg";
 import email from "./icons/email.svg";
+import emailInbox from "./icons/emailInbox.svg";
 import emailVerifiedSuccessfully from "./icons/emailVerifiedSuccessfully.svg";
 import errorIcon from "./icons/errorIcon.svg";
 import excelIcon from "./icons/excelIcon.svg";
@@ -462,6 +464,8 @@ const allImgPaths = (() => ({
   resendInvitationIcon,
   crossBlack,
   resendInvitation,
+  emailInbox,
+  company,
 
   // Onboarding icons
   companyActive,

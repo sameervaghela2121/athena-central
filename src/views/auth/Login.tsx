@@ -182,7 +182,7 @@ const Login = () => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
-      [name]: value,
+      [name]: name === "email" ? value.toLowerCase() : value,
     }));
 
     // Clear error when user starts typing
@@ -199,7 +199,7 @@ const Login = () => {
     try {
       console.log(
         "Submitting email for membership check:",
-        formData.email || email,
+        formData.email.toLowerCase(),
       );
 
       // Call the API using the users API service
@@ -287,7 +287,7 @@ const Login = () => {
     try {
       console.log("Submitting login with password");
       const response = await authApi.login({
-        email: formData.email,
+        email: formData.email.toLowerCase(),
         password: formData.password,
       });
       console.log("Login response received:", response);
@@ -526,19 +526,38 @@ const Login = () => {
 
                   {loginStep === "password" && (
                     <>
-                      <div className="mb-4 p-3 bg-gray-50 rounded-lg">
-                        <div className="flex flex-col sm:flex-row  items-start sm:items-center sm:justify-between">
+                      <div className="mb-4 bg-secondary-900 rounded-lg border-t border-r-0 border-b-0 border-l-0 border-t-primary-100">
+                        <div className="px-6 py-2 ">
+                          <p className="text-xs sm:text-sm font-medium text-white">
+                            Logging in as
+                          </p>
+                        </div>
+                        <div className="flex flex-col sm:flex-row items-start sm:items-center sm:justify-between border border-t-0 border-primary-100 rounded-t-lg rounded-b-md bg-white px-4 py-3">
                           <div>
-                            <p className="text-xs sm:text-sm font-medium text-gray-700">
-                              Logging in as
-                            </p>
-                            <p className="text-xs sm:text-base font-semibold text-gray-900">
-                              {formData.email}
-                            </p>
-                            {selectedMembership ? (
-                              <p className="text-sm text-gray-600 mt-1">
-                                Company: {selectedMembership.companyName}
+                            <div className="flex items-center mb-1">
+                              <img
+                                src={allImgPaths.emailInbox}
+                                alt="email"
+                                className="w-4 h-4 mr-2"
+                              />
+                              <p className="text-xs sm:text-base font-semibold text-gray-900">
+                                {formData.email}
                               </p>
+                            </div>
+                            {selectedMembership ? (
+                              <div className="flex items-center mt-1">
+                                <img
+                                  src={allImgPaths.company}
+                                  alt="company"
+                                  className="w-4 h-4 mr-2 opacity-60"
+                                />
+                                <span className="text-sm text-gray-600">
+                                  <span className="font-medium opacity-60">
+                                    Company:
+                                  </span>{" "}
+                                  {selectedMembership.company.name}
+                                </span>
+                              </div>
                             ) : memberships.length === 0 ? (
                               <p className="text-xs sm:text-sm break-words text-gray-600 mt-1">
                                 No Company found for this account. Enter your
@@ -550,7 +569,7 @@ const Login = () => {
                           <button
                             type="button"
                             onClick={handleBackToEmail}
-                            className="text-xs mt-1 sm:mt-0 text-primary-700 hover:text-primary-800 font-medium"
+                            className="text-xs mt-1 sm:mt-0 text-secondary-900 hover:text-primary-800 font-medium"
                           >
                             Change
                           </button>
