@@ -8,6 +8,7 @@ import { HOST, ROLES_ACCESS } from "@/shared/constants";
 
 import Login from "@/views/auth/Login";
 import PageNotFound from "@/views/page-not-found";
+import Home from "./views/Home";
 
 const isRoleAuthorized = (role: string, basePath: string): boolean => {
   return (
@@ -62,7 +63,7 @@ const SaasRouteWrapper = ({
   const isSaasDeployment = HOST.DEPLOYMENT_TYPE === "saas";
 
   if (!isSaasDeployment) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/login" replace />;
   }
 
   return requireAuth ? (
@@ -92,6 +93,10 @@ const Routing = () => {
   }, []);
 
   const routes = useRoutes([
+    {
+      path: "/",
+      element: <AuthenticatedRoute element={<Home />} />,
+    },
     {
       path: "/login",
       element: <Login />,
