@@ -44,6 +44,8 @@ interface Membership {
   entity: Entity;
   _id: string;
   entity_name: string;
+  user_name: string;
+  user_email: string;
 }
 
 // Response is directly an array of memberships
@@ -138,7 +140,7 @@ const Login = () => {
     // window.location.href = `${HOST.AUTH}/auth/login?provider=${provider}`;
 
     if (provider == "Google") {
-      window.location.href = `https://us-central1-dev-genai-sandbox-434618.cloudfunctions.net/centralLogin/login?provider=Google`;
+      window.location.href = `${HOST.CENTRAL_CLOUD_FUNCTIONS_URL}/login?provider=Google`;
     }
 
     setTimeout(() => {
@@ -256,20 +258,24 @@ const Login = () => {
     // Redirect to the company URL with query parameters
 
     // if (oAuthLoginSuccess) {
-      console.log("🚀 ~ handleMembershipSelect ~ membership:", membership);
-      let payload = {
-        email: formData.email,
-        company_id: membership.cid,
-        entity_id: membership.entity,
-        roles: membership.roles,
-        name: membership.companyName,
-      };
-      const response = await usersApi.getCompanyAuthToken(payload);
-      if (response?.token) {
-        console.log("response", response);
-        window.location.href = `${membership.url}/login?isRedirect=true&auth_token=${response.token}`;
-        // Save token and user info
-      }
+    console.log("🚀 ~ handleMembershipSelect ~ membership:", membership);
+    let payload = {
+      email: formData.email,
+      company_id: membership.cid,
+      entity_id: membership.entity,
+      roles: membership.roles,
+      name: membership.name,
+      companyName: membership.companyName,
+      user_id: membership.user_id,
+      user_name: membership.user_name,
+      user_email: membership.user_email,
+    };
+    const response = await usersApi.getCompanyAuthToken(payload);
+    if (response?.token) {
+      console.log("response", response);
+      window.location.href = `${membership.url}/login?isRedirect=true&auth_token=${response.token}`;
+      // Save token and user info
+    }
     // }
   };
 

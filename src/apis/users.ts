@@ -142,14 +142,10 @@ export default {
       };
 
       const response = await axios
-        .post(
-          "https://us-central1-dev-genai-sandbox-434618.cloudfunctions.net/centralLogin/get-user-companies",
-          data,
-          {
-            ...config,
-            withCredentials: true,
-          },
-        )
+        .post(`${HOST.CENTRAL_CLOUD_FUNCTIONS_URL}/get-user-companies`, data, {
+          ...config,
+          withCredentials: true,
+        })
         .then((response) => {
           console.log(JSON.stringify(response.data));
           return response.data;
@@ -176,18 +172,13 @@ export default {
       };
       let config = {
         method: "post",
-        data: data,
       };
 
       const response = await axios
-        .post(
-          "https://us-central1-dev-genai-sandbox-434618.cloudfunctions.net/centralLogin/generate-token",
-          payload,
-          {
-            ...config,
-            withCredentials: true,
-          },
-        )
+        .post(`${HOST.CENTRAL_CLOUD_FUNCTIONS_URL}/generate-token`, data, {
+          ...config,
+          withCredentials: true,
+        })
         .then((response) => {
           console.log(JSON.stringify(response.data));
           return response.data;
