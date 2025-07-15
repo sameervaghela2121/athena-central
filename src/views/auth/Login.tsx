@@ -222,7 +222,7 @@ const Login = () => {
         // If there's only one membership, select it automatically
         setSelectedMembership(membershipData[0]);
         // Redirect to the company URL
-        window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}`;
+        window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}&membership_id=${membershipData[0]._id}`;
       } else {
         // If there are multiple memberships, show the membership selection screen
         setLoginStep("membership");
@@ -279,7 +279,7 @@ const Login = () => {
         // Save token and user info
       }
     } else {
-      window.location.href = `${membership.url}/login?auth_type=email&?email=${encodeURIComponent(formData.email)}&cid=${membership.cid}&entity=${membership.entity}&companyName=${encodeURIComponent(membership.companyName)}`;
+      window.location.href = `${membership.url}/login?auth_type=email&?email=${encodeURIComponent(formData.email)}&cid=${membership.cid}&entity=${membership.entity}&companyName=${encodeURIComponent(membership.companyName)}&membership_id=${membership._id}`;
     }
     // }
   };
