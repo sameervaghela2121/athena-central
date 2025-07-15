@@ -104,7 +104,7 @@ const Button: React.FC<ButtonProps> = ({
           <div className="flex gap-x-2 items-center">
             {loading ? loadingIcon : null}
             {leftIcon && (
-              <img className="w-4 h-4 sm:h-full sm:w-full" src={leftIcon} />
+              <img className="w-4 h-4 sm:h-auto sm:w-auto" src={leftIcon} />
             )}
             {/* <span className="button-content"> {children}</span> */}
             <span className="flex button-content"> {children}</span>
