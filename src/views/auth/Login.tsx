@@ -270,11 +270,16 @@ const Login = () => {
       user_name: membership.user_name,
       user_email: membership.user_email,
     };
-    const response = await usersApi.getCompanyAuthToken(payload);
-    if (response?.token) {
-      console.log("response", response);
-      window.location.href = `${membership.url}/login?isRedirect=true&auth_token=${response.token}`;
-      // Save token and user info
+    const oauth_login_success = queryParams.get("oauth_login") == "success";
+    if (oauth_login_success) {
+      const response = await usersApi.getCompanyAuthToken(payload);
+      if (response?.token) {
+        console.log("response", response);
+        window.location.href = `${membership.url}/login?isRedirect=true&auth_token=${response.token}`;
+        // Save token and user info
+      }
+    } else {
+      window.location.href = `${membership.url}/login?auth_type=email&?email=${encodeURIComponent(formData.email)}&cid=${membership.cid}&entity=${membership.entity}&companyName=${encodeURIComponent(membership.companyName)}`;
     }
     // }
   };
