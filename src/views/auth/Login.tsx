@@ -439,7 +439,7 @@ const Login = () => {
           title={
             loginStep === "membership"
               ? "Select Your Company"
-              : "Welcome to Athena"
+              : "Welcome to Athena Central"
           }
           subtitle={
             loginStep === "membership"
