@@ -525,6 +525,7 @@ const Login = () => {
                         }
                         required
                         className="w-full rounded-lg focus:ring-primary-500 focus:border-primary-500"
+                        disabled={oAuthLoginSuccess}
                       />
                     </div>
                   )}
@@ -634,14 +635,25 @@ const Login = () => {
                   )}
 
                   <div>
-                    <ButtonV2
-                      type="submit"
-                      loading={loading}
-                      variant="primary"
-                      className="w-full py-3 bg-primary-700 hover:bg-primary-800 text-white rounded-full text-sm sm:text-base"
-                    >
-                      {loginStep === "email" ? "Continue" : "Login"}
-                    </ButtonV2>
+                    {oAuthLoginSuccess ? (
+                      <ButtonV2
+                        type="submit"
+                        loading={loading}
+                        variant="primary"
+                        className="w-full py-3 bg-primary-700 hover:bg-primary-800 text-white rounded-full text-sm sm:text-base"
+                      >
+                        Loading...
+                      </ButtonV2>
+                    ) : (
+                      <ButtonV2
+                        type="submit"
+                        loading={loading}
+                        variant="primary"
+                        className="w-full py-3 bg-primary-700 hover:bg-primary-800 text-white rounded-full text-sm sm:text-base"
+                      >
+                        {loginStep === "email" ? "Continue" : "Login"}
+                      </ButtonV2>
+                    )}
                   </div>
                 </form>
               )}
