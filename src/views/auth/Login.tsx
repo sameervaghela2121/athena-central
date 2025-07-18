@@ -80,6 +80,7 @@ const Login = () => {
   const isSaasDeployment = HOST.DEPLOYMENT_TYPE === "saas";
   const location = useLocation();
   const { translate } = useTranslate();
+  const [isAPICallInProgress, setIsAPICallInProgress] = useState(false);
 
   const queryParams = new URLSearchParams(location.search);
 
@@ -196,6 +197,7 @@ const Login = () => {
 
   const emailSubmit = async (email?: string) => {
     setLoading(true);
+    setIsAPICallInProgress(true);
     try {
       console.log(
         "Submitting email for membership check:",
@@ -243,6 +245,7 @@ const Login = () => {
       toast.error(errorMessage);
     } finally {
       setLoading(false);
+      setIsAPICallInProgress(false);
     }
   };
 
@@ -525,7 +528,7 @@ const Login = () => {
                         }
                         required
                         className="w-full rounded-lg focus:ring-primary-500 focus:border-primary-500"
-                        disabled={oAuthLoginSuccess}
+                        disabled={oAuthLoginSuccess || isAPICallInProgress}
                       />
                     </div>
                   )}
