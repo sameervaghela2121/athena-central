@@ -704,7 +704,7 @@ const Login = () => {
                 </>
               )}
 
-              {loginStep === "email" && (
+              {/* {loginStep === "email" && (
                 <div className="mt-8 text-center font-medium tracking-wide">
                   <Typography variant="body2" className="text-sm text-gray-600">
                     {translate("auth.login.noAccount")}{" "}
@@ -716,7 +716,7 @@ const Login = () => {
                     </span>
                   </Typography>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
 
