@@ -226,8 +226,6 @@ const Login = () => {
         setSelectedMembership(membershipData[0]);
 
         // Redirect to the company URL
-        // window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}&membership_id=${membershipData[0].membership_id}`;
-        console.log("membershipData[0]", membershipData[0]);
         const oauth_login_success = queryParams.get("oauth_login") == "success";
         if (oauth_login_success) {
           const membership = membershipData[0];
