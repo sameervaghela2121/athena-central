@@ -215,6 +215,7 @@ const Login = () => {
         toast.error("No companies found for this email address.");
         setMemberships([]);
         setLoading(false);
+        window.location.href = "https://athena-qa.demotrt.com/register";
         return;
       }
 
@@ -223,8 +224,34 @@ const Login = () => {
       if (membershipData.length === 1) {
         // If there's only one membership, select it automatically
         setSelectedMembership(membershipData[0]);
+
         // Redirect to the company URL
-        window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}&membership_id=${membershipData[0].membership_id}`;
+        // window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}&membership_id=${membershipData[0].membership_id}`;
+        console.log("membershipData[0]", membershipData[0]);
+        const oauth_login_success = queryParams.get("oauth_login") == "success";
+        if (oauth_login_success) {
+          const membership = membershipData[0];
+          let payload = {
+            email: membership.user_email,
+            company_id: membership.cid,
+            entity_id: membership.entity,
+            roles: membership.roles,
+            name: membership.name,
+            companyName: membership.companyName,
+            user_id: membership.user_id,
+            user_name: membership.user_name,
+            user_email: membership.user_email,
+          };
+
+          const response = await usersApi.getCompanyAuthToken(payload);
+          if (response?.token) {
+            console.log("response", response);
+            window.location.href = `${membershipData[0].url}/login?isRedirect=true&auth_token=${response.token}`;
+            // Save token and user info
+          }
+        } else {
+          window.location.href = `${membershipData[0].url}/login/?auth_type=email&email=${encodeURIComponent(formData.email)}&cid=${membershipData[0].cid}&entity=${membershipData[0].entity}&companyName=${encodeURIComponent(membershipData[0].companyName)}&membership_id=${membershipData[0].membership_id}`;
+        }
       } else {
         // If there are multiple memberships, show the membership selection screen
         setLoginStep("membership");
