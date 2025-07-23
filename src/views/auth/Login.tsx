@@ -696,7 +696,7 @@ const Login = () => {
                   </div>
 
                   <div className="flex mt-6 justify-around px-2">
-                    <ButtonV2
+                    {/* <ButtonV2
                       onClick={() => onSsoSignIn("AzureAD")}
                       loading={ssoLoading["AzureAD"] === true}
                       variant="primary"
@@ -708,7 +708,7 @@ const Login = () => {
                       }`}
                     >
                       Azure AD
-                    </ButtonV2>
+                    </ButtonV2> */}
                     <ButtonV2
                       onClick={() => onSsoSignIn(HOST.VP_PROVIDER)}
                       loading={ssoLoading[HOST.VP_PROVIDER] === true}
