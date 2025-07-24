@@ -215,7 +215,6 @@ const Login = () => {
         toast.error("No companies found for this email address.");
         setMemberships([]);
         setLoading(false);
-        window.location.href = "https://athena-qa.demotrt.com/register";
         return;
       }
 
