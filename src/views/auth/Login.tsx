@@ -212,7 +212,7 @@ const Login = () => {
 
       if (membershipData.length === 0) {
         // When no memberships are found, show message
-        toast.error("No companies found for this email address.");
+        toast.error("No User Found, please contact administrator");
         setMemberships([]);
         setLoading(false);
         return;
